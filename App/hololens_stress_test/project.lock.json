@@ -1917,21 +1917,6 @@
             "rid": "win8-aot"
           }
         }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
       }
     },
     "UAP,Version=v10.0.10240/win10-arm": {
@@ -3707,21 +3692,6 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
       }
     },
     "UAP,Version=v10.0.10240/win10-arm-aot": {
@@ -5459,21 +5429,6 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     },
@@ -7257,21 +7212,6 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
       }
     },
     "UAP,Version=v10.0.10240/win10-x64-aot": {
@@ -9009,21 +8949,6 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     },
@@ -10807,21 +10732,6 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
       }
     },
     "UAP,Version=v10.0.10240/win10-x86-aot": {
@@ -12559,21 +12469,6 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     }
@@ -15867,16 +15762,6 @@
         "runtime.json",
         "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll"
       ]
-    },
-    "Assembly-CSharp/1.0.0": {
-      "type": "project",
-      "path": "../GeneratedProjects/UWP/Assembly-CSharp/project.json",
-      "msbuildProject": "../GeneratedProjects/UWP/Assembly-CSharp/Assembly-CSharp.csproj"
-    },
-    "Assembly-CSharp-firstpass/1.0.0": {
-      "type": "project",
-      "path": "../GeneratedProjects/UWP/Assembly-CSharp-firstpass/project.json",
-      "msbuildProject": "../GeneratedProjects/UWP/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -15889,43 +15774,36 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\HackReality\\.nuget\\packages\\": {}
+    "C:\\Users\\ARtSSt\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\HackReality\\Desktop\\xianhai cao\\hololens_stress_test\\hololens_stress_test\\App\\hololens_stress_test\\hololens_stress_test.csproj",
+      "projectUniqueName": "C:\\Users\\ARtSSt\\Desktop\\xianhaicao\\hololens_stress_test\\App\\hololens_stress_test\\hololens_stress_test.csproj",
       "projectName": "hololens_stress_test",
-      "projectPath": "C:\\Users\\HackReality\\Desktop\\xianhai cao\\hololens_stress_test\\hololens_stress_test\\App\\hololens_stress_test\\hololens_stress_test.csproj",
-      "projectJsonPath": "C:\\Users\\HackReality\\Desktop\\xianhai cao\\hololens_stress_test\\hololens_stress_test\\App\\hololens_stress_test\\project.json",
-      "packagesPath": "C:\\Users\\HackReality\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HackReality\\Desktop\\xianhai cao\\hololens_stress_test\\hololens_stress_test\\App\\hololens_stress_test\\obj\\",
+      "projectPath": "C:\\Users\\ARtSSt\\Desktop\\xianhaicao\\hololens_stress_test\\App\\hololens_stress_test\\hololens_stress_test.csproj",
+      "projectJsonPath": "C:\\Users\\ARtSSt\\Desktop\\xianhaicao\\hololens_stress_test\\App\\hololens_stress_test\\project.json",
+      "packagesPath": "C:\\Users\\ARtSSt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ARtSSt\\Desktop\\xianhaicao\\hololens_stress_test\\App\\hololens_stress_test\\obj\\",
       "projectStyle": "ProjectJson",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\HackReality\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ARtSSt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
-      },
-      "frameworks": {
-        "uap10.0.10240": {
-          "projectReferences": {
-            "C:\\Users\\HackReality\\Desktop\\xianhai cao\\hololens_stress_test\\hololens_stress_test\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\HackReality\\Desktop\\xianhai cao\\hololens_stress_test\\hololens_stress_test\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
-            },
-            "C:\\Users\\HackReality\\Desktop\\xianhai cao\\hololens_stress_test\\hololens_stress_test\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
-              "projectPath": "C:\\Users\\HackReality\\Desktop\\xianhai cao\\hololens_stress_test\\hololens_stress_test\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
-            }
-          }
-        }
       }
     },
     "dependencies": {
-      "Microsoft.ApplicationInsights": "1.0.0",
-      "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-      "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-      "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+      "Microsoft.ApplicationInsights": "[1.0.0, )",
+      "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+      "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+      "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
     },
     "frameworks": {
       "uap10.0.10240": {}

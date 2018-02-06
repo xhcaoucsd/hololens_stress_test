@@ -8,10 +8,10 @@
 hololens_stress_test.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
 GeneratedProjects\UWP\Assembly-CSharp-firstpass\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
-hololens_stress_test\App.cs: 96DCA0AB5B49EDE948D3FE0B0F6AE213
-hololens_stress_test\hololens_stress_test.csproj: 4E1C3A7902B6B4935E771A3682824857
+hololens_stress_test\App.cs: modified
+hololens_stress_test\hololens_stress_test.csproj: 8302B7C7FEE64B8CFC942FC9448D70B7
 hololens_stress_test\hololens_stress_test.csproj.user: modified
-hololens_stress_test\Package.appxmanifest: EA05FA629DA32E43E24749F2E5DAFF27
+hololens_stress_test\Package.appxmanifest: 6BB64B2C655F0CD0ADB329018A369A0A
 hololens_stress_test\project.json: 1D02BC64BAC0D041019673A1C4C51737
 hololens_stress_test\Assets\SplashScreen.scale-200.png: 60618416282ED104FD1473935716045D
 hololens_stress_test\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
@@ -27,5 +27,5 @@ hololens_stress_test\bin\x86\Release\AppX\Assets\StoreLogo.png: 90BD194CA4A7CFFF
 hololens_stress_test\bin\x86\Release\AppX\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
 hololens_stress_test\bin\x86\Release\AppX\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
 hololens_stress_test\obj\x86\Release\hololens_stress_test.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
-hololens_stress_test\Properties\AssemblyInfo.cs: D0966096297076C89DA06910F0CA38FC
+hololens_stress_test\Properties\AssemblyInfo.cs: modified
 hololens_stress_test\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826

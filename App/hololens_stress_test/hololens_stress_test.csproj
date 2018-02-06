@@ -12,7 +12,7 @@
     <AssemblyName>hololens_stress_test</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -147,7 +147,7 @@
     <SDKReference Include="Microsoft.VCLibs, Version=14.0">
       <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
     </SDKReference>
-    <SDKReference Include="WindowsMobile, Version=10.0.15063.0">
+    <SDKReference Include="WindowsMobile, Version=10.0.16299.0">
       <Name>Windows Mobile Extensions for the UWP</Name>
     </SDKReference>
   </ItemGroup>
@@ -213,13 +213,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="C:\Users\HackReality\Desktop\xianhai cao\hololens_stress_test\hololens_stress_test\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{34973767-66fb-4592-86ff-934d5ec9b86f}</Project>
+    <ProjectReference Include="C:\Users\ARtSSt\Desktop\xianhaicao\hololens_stress_test\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
+      <Project>{17e071dd-a329-46fc-a7fe-af5a8fa745be}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\HackReality\Desktop\xianhai cao\hololens_stress_test\hololens_stress_test\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{4e9d46e3-8e2f-4c1d-959f-918f8114abdc}</Project>
+    <ProjectReference Include="C:\Users\ARtSSt\Desktop\xianhaicao\hololens_stress_test\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
+      <Project>{8bda470b-dbe5-4e00-937e-9e60e38b061b}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
       <Private>False</Private>
     </ProjectReference>

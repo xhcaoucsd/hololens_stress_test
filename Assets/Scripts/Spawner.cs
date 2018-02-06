@@ -8,7 +8,9 @@ public class Spawner : MonoBehaviour, IInputClickHandler, ISpeechHandler {
     public GameObject pf_poly;
     public GameObject gravity;
     public GameObject infoDisplay;
+    public int numShots;
     public float launchSpeed;
+    public float shotGap;
     private int objCount;
     private int triCount;
     private int vertCount;
@@ -19,18 +21,7 @@ public class Spawner : MonoBehaviour, IInputClickHandler, ISpeechHandler {
 
     public void OnInputClicked(InputClickedEventData eventData)
     {
-        GameObject poly = (GameObject)Instantiate(pf_poly, Camera.main.transform.position, Camera.main.transform.rotation);
-        poly.GetComponent<GravityAttraction>().Initialize(gravity);
-
-        Mesh polyMesh = poly.GetComponent<MeshFilter>().mesh;
-        if (polyMesh == null) return;
-        objCount++;
-        triCount += polyMesh.triangles.Length / 3;
-        vertCount += polyMesh.vertices.Length;
-
-        poly.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * launchSpeed);
-        Debug.Log("hey");
-        Debug.Log("objCount: " + objCount + " triCount: " + triCount + " vertCount: " + vertCount);
+        Shoot(numShots);
     }
 
     public void OnSpeechKeywordRecognized(SpeechKeywordRecognizedEventData eventData)
@@ -71,4 +62,28 @@ public class Spawner : MonoBehaviour, IInputClickHandler, ISpeechHandler {
         }
         infoDisplay.GetComponent<Text>().text = newText;
 	}
+
+
+    private void Shoot(int shots)
+    {
+        for (int i = 0; i < shots; i++)
+        {
+            Vector3 offsetNorm = new Vector3(Mathf.Cos(2 * Mathf.PI * ((float)i / shots)), Mathf.Sin(2 * Mathf.PI * ((float)i / shots)));
+            Vector3 offset = offsetNorm * shotGap * i;
+            Vector3 position = Camera.main.transform.position + Camera.main.transform.TransformPoint(offset);
+
+            GameObject poly = (GameObject)Instantiate(pf_poly, position, Camera.main.transform.rotation);
+            poly.GetComponent<GravityAttraction>().Initialize(gravity);
+
+            Mesh polyMesh = poly.GetComponent<MeshFilter>().mesh;
+            if (polyMesh == null) return;
+            objCount++;
+            triCount += polyMesh.triangles.Length / 3;
+            vertCount += polyMesh.vertices.Length;
+
+            poly.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * launchSpeed);
+            Debug.Log("hey");
+            Debug.Log("objCount: " + objCount + " triCount: " + triCount + " vertCount: " + vertCount);
+        }
+    }
 }
